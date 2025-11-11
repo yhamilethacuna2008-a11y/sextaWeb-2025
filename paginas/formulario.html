@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<link rel="shortcut icon" href="../img/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="../css/menu.css">
+    <link rel="stylesheet" href="../css/contacto.css">
+    <link rel="stylesheet" href="../css/footer.css">
+<body>
+    <header>
+        <nav>
+            <ul>
+                 <li><a href="../index.html">Inicio</a></li>
+                <li><a href="../paginas/galeria.html">Galeria</a></li>
+                <li><a href="../paginas/formulario.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+    <main>
+        <form class="contacto-form">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required>
+
+
+            <label for="apellido">Apellido:</label>
+            <input type="text" id="apellido" name="apellido" required>
+
+
+            <label for="ciudad">Ciudad:</label>
+            <select id="ciudad" name="ciudad" required>
+                <option value="">Seleccione una ciudad</option>
+                <option value="cochabamba">Cochabamba</option>
+                <option value="lapaz">La Paz</option>
+                <option value="sucre">Sucre</option>
+                <option value="oruro">Oruro</option>
+            </select>
+
+
+            <label for="correo">Correo:</label>
+            <input type="email" id="correo" name="correo" required>
+
+
+            <label for="direccion">Dirección:</label>
+            <input type="text" id="direccion" name="direccion" required>
+ <button type="submit">Enviar</button>
+        </form>
+    </main>
+    <footer>
+    <div class="footer-container">
+        <!-- Columna 1: Sobre la web -->
+        <div class="footer-col">
+            <h3>Sobre la Web</h3>
+            <p>Esta web es un proyecto educativo para aprender HTML y CSS.</p>
+            <ul>
+                 <li><a href="index.html">Inicio</a></li>
+                <li><a href="paginas/galeria.html">Galeria</a></li>
+                <li><a href="formulario.html">Contacto</a></li>
+            </ul>
+        </div>
+
+
+        <!-- Columna 2: Redes sociales -->
+        <div class="footer-col">
+            <h3>Redes Sociales</h3>
+            <ul class="socials">
+                <li><a href="#"><img src="../img/redSocial/facebook.png" alt=""></a></li>
+                <li><a href="#"><img src="../img/redSocial/instagram.png" alt=""></a></li>
+                <li><a href="#"><img src="../img/redSocial/whatsapp.png" alt=""></a></li>
+            </ul>
+        </div>
+    </div>
+
+
+    <div class="footer-bottom">
+        &copy; 2025 WilnerMena. Todos los derechos reservados.
+     </div>
+</footer>
+
+</body>
+</html>

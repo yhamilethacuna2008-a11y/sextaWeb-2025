@@ -1,0 +1,45 @@
+body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background-color: #f4f4f4;
+        }
+
+
+       
+
+
+        main {
+display: flex;
+            justify-content: center;
+            padding: 20px;
+        }
+
+
+        section {
+            display: flex;
+            gap: 20px;
+            flex-wrap: wrap;
+            max-width: 800px;
+        }
+
+
+      article {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    flex: 1 1 300px;
+    padding: 20px;
+    transition: background-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
+}
+    article:hover {
+        background-color: #e8f0ff; 
+        
+        transform: translateY(-5px); 
+        box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+        cursor: pointer;
+        
+    }
+        article h2 {
+            margin-top: 0;
+        }
+        
